@@ -18,7 +18,7 @@
 - Alat yang dipakai: Claude
 - Bagian yang dibantu AI: Penjelasan konsep minggu ke 03 dan penjelasan dari inheritance, membantu memperbaiki eror pada saat mennjalankan  test
 - Prompt utama: tolong jelaskan terlebih dahulu konsep minggu ke-3 ini, dan juga jelaskan secara singkat apa itu inheritance, gunakan bahasa yang sederhana.
-- Yang saya ubah atau tolak dari saran AI, dan alasannya:Saran AI menggunakan `final` pada semua field. Pada `Ruang` dan `Laptop` saya tidak menerapkannya, sedangkan pada `AlatLab` saya menerapkannya.
+- Yang saya ubah atau tolak dari saran AI, dan alasannya:AI menyarankan `final` pada semua field. Pada `Ruang` dan `Laptop` saya tidak menerapkannya, sedangkan pada `AlatLab` saya menerapkannya.
 - Satu hal yang saya pahami lebih baik sekarang:Pemanggilan `super(kode, nama)` pada baris pertama konstruktor membuat validasi kelas induk tetap berlaku pada subclass, sehingga saya tidak perlu menulis ulang validasi tersebut.
 
 ## Dokumentasi
