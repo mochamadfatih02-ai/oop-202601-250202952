@@ -13,7 +13,7 @@
 - Kode saya buat tanpa setter, karena kode itu identitas aset dan hanya diisi sekali saat object dibuat. Kode saya simpan apa adanya, tanpa trim atau diubah ke huruf besar, karena tugas hanya meminta kode tidak boleh null atau kosong. Untuk memeriksanya saya pakai `if` karena paling mudah saya baca.
 
 ## Kendala
-1. Pada saat menjalankan `.\scripts\uji.ps1` di terminal VS Code muncul error karena script PowerShell diblokir oleh Execution Policy. Saya atasi dengan menjalankan `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` yang hanya berlaku di terminal yang sedang dijalankan . Setelah itu script jalan.
+1. Pada saat menjalankan `.\scripts\uji.ps1` di terminal VS Code muncul error karena script PowerShell diblokir oleh Execution Policy. Saya mengatasinya dengan menjalankan `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` yang hanya berlaku di terminal yang sedang dijalankan . Setelah itu script jalan.
 
 2. Saya sempat mengira tes minggu 2 sudah jalan, padahal yang tampil baru minggu 1. Setelah saya jalankan `.\scripts\uji.ps1 2` yang dimana saya menambahkan angka 2 ,baru setelah itu tes minggu 1 dan 2 jalan semua dan lolos (11 tes, 0 gagal).
 
